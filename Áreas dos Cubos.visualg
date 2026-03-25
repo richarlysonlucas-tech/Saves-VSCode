@@ -1,0 +1,19 @@
+algoritmo
+var
+  nome : caractere
+  volume : inteiro
+  lado : inteiro
+inicio
+//Atribuições
+escreval("Calculadora das Áreas dos Cubos")
+escreva("Digite pelo seu teclado, o seu nome pessoal, por favor: ")
+leia(nome)
+escreval(nome)
+escreva("Digite no teclado numérico, o valor em questão para o lado do cubo: ")
+leia(lado)
+escreval(lado)
+//Programa
+volume <-(lado * lado * lado)
+escreval("A área do cubo em questão é: ", volume)
+escreva("Dado o resultado do exemplo, fim da execução.")
+fimalgoritmo

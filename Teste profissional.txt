@@ -1,0 +1,20 @@
+algoritmo "Teste profissional"
+
+var
+   raio: inteiro
+   nome: caractere
+   resultado: inteiro
+inicio
+//Atribuição
+   escreval("===Calculadora de Sparta===")
+   escreva("Digite o seu nome GUERREIRO de SPARTA: ")
+   leia(nome)
+   escreval(nome)
+   escreva("Por favor GUERREIRO de SPARTA, digite o valor do raio: ")
+   leia(raio)
+   escreval(raio)
+//Programa
+   resultado <-(3.14 * raio * raio)
+   escreval("A área do círculo é de: ", resultado)
+   escreva("Fim do teste profissional.")
+fimalgoritmo

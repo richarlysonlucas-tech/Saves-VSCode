@@ -1,0 +1,25 @@
+algoritmo
+var
+  aluno : caracter
+  nota1 : inteiro
+  nota2 : inteiro
+  nota3 : inteiro
+  media : inteiro
+inicio
+  escreval("(Processo programado para Cálculos de Médias Aritméticas do Colégio Patrícia Costa)")
+  escreva("Qual o nome do aluno que requisita calcular a média para servir como base conceitual de suas notas? ")
+  leia(aluno)
+  escreval(aluno)
+  escreva("Qual foi a sua (NOTA 1) da avaliação que você estava possivelmente presente? ")
+  leia(nota1)
+  escreval(nota1)
+  escreva("Entendido, qual foi a sua (NOTA 2) da avaliação que você também estava possivelmente presente? ")
+  leia(nota2)
+  escreval(nota2)
+  escreva("Entendido, e qual foi a sua (NOTA 3) da avaliação que você também estava possivelmente presente? ")
+  leia(nota3)
+  escreval(nota3)
+  media <-(nota1 + nota2 + nota3)/3
+  escreval("O aluno "aluno" ficou com média "media"")
+  escreva("Dado tal resultado referente ao cálculo em questão, fim da execução programada.")
+  fimalgoritmo

@@ -1,0 +1,26 @@
+algoritmo "Área do Triângulo"
+
+var
+
+    nome : caractere
+    base : inteiro
+    altura : inteiro
+    resultado : inteiro
+
+inicio
+//Atribuição
+    escreval("Calculadora das Áreas dos Triângulos")
+    escreva("Por favor, digite o seu nome(pessoal): ")
+    leia(nome)
+    escreval(nome)
+    escreva("Também quero que digite o valor numérico da base desejado(a) por você, por favor: ")
+    leia(base)
+    escreval(base)
+    escreva("Entendido, agora diante de tal valor, também quero que você digite o valor da altura, por favor: ")
+    leia(altura)
+    escreval(altura)
+    //Programa
+    resultado <-(base * altura)/2
+    escreval("Entendido, a área do triângulo em questão é: ", resultado)
+    escreva("Dado o resultado, fim da execução.")
+fimalgoritmo
