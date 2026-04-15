@@ -1,0 +1,14 @@
+algoritmo "Teste"
+var
+  A, B:inteiro
+  nome:caractere
+  escreval("Um simples teste sobre a pirâmide de Precedência Aritmética")
+  escreva("Qual o seu nome? ")
+  leia(nome)
+  escreval(nome)
+  A<-(5 + 3 * 2)
+  B<-((5 + 3) * 2)
+  escreval("Resultado para A: "A"")
+  escreval("Resultado para B: "B"")
+  escreva("Fim da execução.")
+fimalgoritmo

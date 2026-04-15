@@ -1,0 +1,23 @@
+algoritmo "Triângulos"
+
+var
+
+LadoA,LadoB,LadoC:real
+es,eq,is:logico
+
+inicio
+
+  escreval("Qual o lado A? ")
+	  leia(LadoA)
+  escreval("Qual o lado B? ")
+	  leia(LadoB)
+  escreval("Qual o lado C? ")
+	  leia(LadoC)
+  eq<-(LadoA=LadoB)e(LadoB=LadoC)e(LadoA=LadoC)
+  es<-(LadoA<>LadoB)e(LadoB<>LadoC)e(LadoA<>LadoC)
+  is<-(LadoA=LadoB)ou(LadoB=LadoC)ou(LadoA<>LadoC)ou(LadoA=LadoB)ou(LadoB<>LadoC)ou(LadoA=LadoC)ou(LadoA<>LadoB)ou(LadoB=LadoC)ou(LadoA=LadoC)
+  escreval("Seu triângulo é equilátero? "eq)
+  escreval("Seu triângulo é escaleno? "es)
+  escreval("Seu triângulo é isósceles? "is)
+
+fimalgoritmo

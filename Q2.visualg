@@ -1,0 +1,17 @@
+algoritmo
+
+var
+
+  nome,sobrenome:caractere
+
+inicio
+
+  escreva("Qual o seu nome? ")
+    leia(nome)
+    escreval(nome)
+  escreva("Qual o seu sobrenome? ")
+    leia(sobrenome)
+    escreval(sobrenome)
+  escreval("Olá, "nome,sobrenome,"!"" Seja bem-vindo(a)!")
+  escreva("Fim!")
+fimalgoritmo

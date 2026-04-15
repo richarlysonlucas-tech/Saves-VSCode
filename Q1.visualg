@@ -1,0 +1,16 @@
+algoritmo
+
+var
+  realbrasileirobrl,dolaramericanousd,resultadocotacao:real
+
+inicio
+
+  escreva("Qual o valor/dinheiro que você quer converter? ")
+    leia(realbrasileirobrl)
+    escreval(realbrasileirobrl)
+  escreva("Qual o valor/dinheiro que você pretende saber em dólares? ")
+    leia(dolaramericanousd)
+    escreval(dolaramericanousd)
+  resultadocotacao<-(realbrasileirobrl / dolaramericanousd)
+  escreval("O resultado da cotação é de:",resultadocotacao)
+fimalgoritmo

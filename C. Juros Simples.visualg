@@ -1,0 +1,23 @@
+algoritmo "C. Juros Simples"
+var
+  capital,taxajuros,jurossimples:real
+  nome:caractere
+  tempo:inteiro
+inicio
+  escreval("[Calculadora de Juros Simples]")
+    escreva("Qual o seu nome? ")
+      leia(nome)
+      escreval(nome)
+    escreva("Qual foi o seu capital financeiro? ")
+      leia(capital)
+      escreval(capital)
+    escreva("Qual foi a taxa dos juros? ")
+      leia(taxajuros)
+      escreval(taxajuros)
+    escreva("E qual foi o tempo com o capital financeiro? ")
+      leia(tempo)
+      escreval(tempo)
+    jurossimples<-(capital * (taxajuros / 100) * tempo)
+    escreval("Os juros são de R$"jurossimples"")
+    escreva("Fim da execução.")
+fimalgoritmo

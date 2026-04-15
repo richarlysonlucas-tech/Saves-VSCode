@@ -1,0 +1,24 @@
+algoritmo "C. Índice Massa Corpórea (IMCv2.3)" //Define o início e o nome do programa;
+var //Declaração de variáveis;
+  nome,satisfacao:caractere
+  imc,peso,altura:real
+inicio //Inicia o bloco principal executável;
+  escreval("[Sua Calculadora Pessoal de Massa Corpórea (IMCv2.3)]")
+  escreva("Antes de mais nada, qual o seu nome? ")
+  leia(NOME)
+  escreval(NOME)
+  escreva("Por favor, para que eu consiga calcular, preciso que saiba a altura, sendo assim, qual seria a altura em destaque? ")
+  leia(ALTURA)
+  escreval(ALTURA)
+  escreva("Altura verificada, salvei a resposta e preciso que também informe o seu peso, por favor: ")
+  leia(PESO)
+  escreval(PESO)
+  IMC<-(PESO / (ALTURA * ALTURA)) //Programa;
+  escreval("O Índice de Massa Corpórea de "nome" seria de: "IMC"")
+  escreval("Por favor, analise as categorias, IMCs e risco à saúde para que saiba mais sobre saúde.")
+  escreval("Categorias/IMCs/Riscos: Magreza grau III (muito grave): Abaixo de 16, muito elevado; Magreza grau II (grave): 16.0 – 16.9, elevado; Magreza grau I (moderada): 17.0 – 18.4, moderado; Peso adequado (eutrofia): 18.5 – 24.9, baixo (normal); Sobrepeso (pré-obesidade): 25.0 – 29.9, aumentado; Obesidade grau I: 30.0 – 34.9, alto; Obesidade grau II (grave): 35.0 – 39.9, muito alto; Obesidade grau III (muito grave / mórbida): Acima de 40, muitíssimo alto.")
+  escreva("Satisfeito pelo serviço? ")
+  leia(satisfacao)
+  escreval(satisfacao)
+  escreva("Fim da execução programada!")
+fimalgoritmo //Encerra o programa.

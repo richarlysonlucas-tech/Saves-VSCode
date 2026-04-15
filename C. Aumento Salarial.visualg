@@ -1,0 +1,22 @@
+algoritmo "C. Aumento Salarial"
+  var
+    nome:caractere
+    salarioatual,novo_salario,aumentosalarial:real
+    percentualdeaumento:inteiro
+  inicio
+    escreval("[Calculadora de Aumento Salarial criada pelo estudo de programação]")
+      escreva("Qual o seu nome? ")
+        leia(nome)
+        escreval(nome)
+      escreva("Desculpe a pergunta, mas, qual seria o seu salário atual? ")
+        leia(salarioatual)
+        escreval(salarioatual)
+      escreva("Beleza, encarecidamente, de quanto foi o seu aumento salarial? ")
+        leia(aumentosalarial)
+        escreval(aumentosalarial)
+      escreva("Por fim, qual seria o percentual de aumento salarial? ")
+        leia(percentualdeaumento)
+        escreval(percentualdeaumento)
+      novo_salario<-(salarioatual * (1 + aumentosalarial / 100))
+        escreval("O novo salário será de R$"novo_salario"")
+  fimalgoritmo

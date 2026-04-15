@@ -1,0 +1,18 @@
+algoritmo
+var
+  nome : caractere
+  fahrenheit : inteiro
+  celsius : inteiro
+inicio
+escreval("'Calculadora de Conversões Celsius para Fahrenheit'")
+escreva("Qual o seu nome? ")
+leia(nome)
+escreval(nome)
+escreva("Qual a temperatura em Celsius que você pretende converter para Fahrenheit? ")
+leia(celsius)
+escreval(celsius)
+escreval("Com o seu nome e a temperatura desejada em Fahrenheit, tenho a permissão concedida por você para calcular a conversão...")
+fahrenheit<-(celsius * 1.8 + 32)
+escreval("A temperatura em Fahrenheit é: "fahrenheit"")
+escreva("Dado o resultado da conversão, execução programada finalizada.")
+fimalgoritmo
